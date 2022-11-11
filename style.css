@@ -3,7 +3,7 @@
   src: url(./assets/digital-7.ttf);
 }
 * {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .container {
   max-width: 400px;
@@ -48,4 +48,16 @@
 #equal:hover {
   background-color: #3a8938;
   color: white;
+}
+@media (max-width: 750px) {
+  .container {
+    max-width: 300px;
+    margin: 35% auto;
+  }
+  #display {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 20px;
+  }
 }
